@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/desafio_5_1_react_routers/static/css/main.6ac34b5a.css",
-    "main.js": "/desafio_5_1_react_routers/static/js/main.c87d11b8.js",
+    "main.js": "/desafio_5_1_react_routers/static/js/main.69b59b22.js",
     "static/js/787.0149eff3.chunk.js": "/desafio_5_1_react_routers/static/js/787.0149eff3.chunk.js",
     "index.html": "/desafio_5_1_react_routers/index.html",
     "main.6ac34b5a.css.map": "/desafio_5_1_react_routers/static/css/main.6ac34b5a.css.map",
-    "main.c87d11b8.js.map": "/desafio_5_1_react_routers/static/js/main.c87d11b8.js.map",
+    "main.69b59b22.js.map": "/desafio_5_1_react_routers/static/js/main.69b59b22.js.map",
     "787.0149eff3.chunk.js.map": "/desafio_5_1_react_routers/static/js/787.0149eff3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ac34b5a.css",
-    "static/js/main.c87d11b8.js"
+    "static/js/main.69b59b22.js"
   ]
 }
