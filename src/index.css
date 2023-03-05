@@ -13,7 +13,7 @@ code {
 }
 
 #navbar {
-  height: 50px;
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,3 +23,25 @@ code {
   display: flex;
 }
 
+#logo_cake {
+  font-size: 150px;
+}
+
+#footer {
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#section_form {
+  height: 80vh;
+}

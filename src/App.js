@@ -1,24 +1,26 @@
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Home from "./views/Home";
+import Contact from "./views/Contact";
+
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Navbar></Navbar>
+        <Routes>
+          <Route path="/" element={<Home></Home>}></Route>
+          <Route path="/contact" element={<Contact></Contact>}></Route>
+        </Routes>   
+      </BrowserRouter>
+      <Footer></Footer>         
     </div>
   );
 }
